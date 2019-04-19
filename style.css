@@ -1,0 +1,144 @@
+
+body{
+	background-image: url("img/full_bg.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding:0px auto;
+	margin:0px auto;
+	font-family: 'Merriweather', serif;
+}
+
+.navbar{
+	padding:.8rem;
+	
+}
+.navbar-nav li{
+	padding-right:30px;
+	
+}
+
+.nav-link{
+	font-size:1.1em;
+	
+}
+
+#Header{
+	background-image: url("img/head-bg.png");
+	height:670px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.responsive{
+	width:102%;
+}
+.dddd{
+	margin-left:-20px;
+}
+.d{
+	width:101.7%;
+	opacity:0.7;
+}
+.fish{
+	position:relative;
+	margin-left:-20px;
+	width:102.5%;
+}
+
+.fa-twitter-square,
+.fa-facebook-f,
+.fa-instagram,
+.fa-google-plus-g{
+	font-size:40px;
+	margin-left:10px;
+	margin-top:120px;
+}
+.footer_logo{
+	margin-top:80px;
+	margin-bottom:30px;
+}
+.f1{
+	font-weight:bold;
+	font-size:20px;
+	margin-top:60px;
+}
+
+/*our story*/
+.title_tag{
+	font-weight:bold;
+	margin-top:220px;
+}
+p{
+	font-weight:bold;
+}
+.hr_line{
+	background-color:#EC9797;
+	height:5px;
+	width:40px;
+}
+/*fresh*/
+.flower2{
+	margin-top:130px;
+	margin-bottom:30px;
+}
+/*destilation*/
+.desti{
+	margin-top:130px;
+	margin-bottom:30px;
+}
+.itm{
+	margin-top:50px;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.fish{
+	position:relative;
+	width:103.8%;
+}
+  }
+@media (max-width: 768px ) {
+
+.d{
+	width:105.7%;
+	opacity:0.7;
+	margin-left:0px;
+	
+}
+.dddd{
+	margin-left:0px;
+}
+.fish{
+	margin-left:0px;
+}
+.title_tag{
+	font-weight:bold;
+	margin-top:0px;
+	position:Relative;
+}
+}
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
